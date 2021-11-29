@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 body {
+    overflow-x: hidden;
     @apply bg-blue-400
 }
 
