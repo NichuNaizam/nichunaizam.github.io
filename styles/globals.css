@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-blue-400
+}
+
+::-webkit-scrollbar {
+    @apply w-2
+}
+  
+::-webkit-scrollbar-track {
+    @apply bg-blue-400
+}
+  
+::-webkit-scrollbar-thumb {
+    @apply bg-blue-600
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-blue-900
+}
